@@ -44,7 +44,7 @@ body {
 
 .container .profile-card {
     position: relative;
-    width: 18rem;
+    width: 20rem;
     margin: 4rem 0 0;
     background: #fff;
     border-radius: 20px;
@@ -60,4 +60,8 @@ body {
 .user-info>img {
     border-radius: 50%;
     border: 5px solid #fff;
+}
+
+.user-info>h1 {
+    font-size: 1.5rem;
 }
