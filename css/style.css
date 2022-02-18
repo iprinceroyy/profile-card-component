@@ -22,12 +22,42 @@ body {
     font-size: var(--fs);
     font-family: "Kumbh Sans", sans-serif;
     line-height: 1.5;
+    width: 100%;
+    height: 100vh;
     background-color: var(--dark-cyan);
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-position: top -50vh right 50vw, bottom -50vh left 50vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
 .container {
-    margin: 2rem 5rem;
+    margin: 2rem 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .profile-card {
+    position: relative;
+    width: 18rem;
+    margin: 4rem 0 0;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.profile-card .user-info {
+    width: 100%;
+    background: url("../images/bg-pattern-card.svg") no-repeat;
+    border-radius: 20px 20px;
+    padding: 5.5rem 4rem 0;
+}
+
+.user-info>img {
+    border-radius: 50%;
+    border: 5px solid #fff;
 }
