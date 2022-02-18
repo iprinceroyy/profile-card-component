@@ -26,7 +26,7 @@ body {
     height: 100vh;
     background-color: var(--dark-cyan);
     background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
-    background-position: top -50vh right 50vw, bottom -50vh left 50vw;
+    background-position: top -78vh right 50vw, bottom -78vh left 50vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
@@ -57,7 +57,7 @@ body {
     padding: 5.5rem 4rem 0;
 }
 
-.user-info img {
+.user-info>img {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -65,10 +65,44 @@ body {
     background-color: #fff;
 }
 
-.user-info h1 {
+.user-info>h1 {
     font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .user-info span {
     color: var(--dark-grayish-blue);
+}
+
+.user-info>p {
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+    margin: 0.2rem 0 1.5rem;
+}
+
+hr {
+    border-width: 1px 0 0 0;
+}
+
+
+/* stats */
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1.5rem 0 1.3rem;
+}
+
+.stats div>h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.stats div>p {
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
 }
