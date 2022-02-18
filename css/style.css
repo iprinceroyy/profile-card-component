@@ -57,11 +57,18 @@ body {
     padding: 5.5rem 4rem 0;
 }
 
-.user-info>img {
+.user-info img {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius: 50%;
     border: 5px solid #fff;
+    background-color: #fff;
 }
 
-.user-info>h1 {
+.user-info h1 {
     font-size: 1.5rem;
+}
+
+.user-info span {
+    color: var(--dark-grayish-blue);
 }
