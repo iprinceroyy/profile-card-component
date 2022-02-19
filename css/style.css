@@ -112,7 +112,7 @@ hr {
 
 @media (max-width: 480px) {
     body {
-        background-position: top -65vh right 50vw, bottom -50vh left 50vw;
+        background-position: top -65vh right 50vw, bottom -40vh left 50vw;
     }
 }
 
