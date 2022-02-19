@@ -28,7 +28,7 @@ body {
     background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
     background-position: top -70vh right 50vw, bottom -65vh left 50vw;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -36,19 +36,25 @@ body {
 
 .container {
     margin: 2rem 5rem 0;
+    padding: 8rem 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+
+/* main profile card */
+
 .container .profile-card {
     position: relative;
     width: 21rem;
-    margin: 4rem 0 0;
     background: #fff;
     border-radius: 20px;
 }
+
+
+/* user image */
 
 .profile-card .user-info {
     width: 100%;
@@ -64,6 +70,9 @@ body {
     border: 5px solid #fff;
     background-color: #fff;
 }
+
+
+/* user details */
 
 .user-info>h1 {
     font-size: 1.5rem;
@@ -82,10 +91,12 @@ body {
 
 hr {
     border-width: 1px 0 0 0;
+    color: var(--dark-grayish-blue);
+    opacity: 0.6;
 }
 
 
-/* stats */
+/* user stats */
 
 .stats {
     display: flex;
@@ -107,12 +118,20 @@ hr {
     font-weight: 400;
 }
 
+footer .attribution {
+    margin: 4rem 1rem;
+}
+
+.attribution {
+    font-size: 1rem;
+}
+
 
 /* for mobile */
 
 @media (max-width: 480px) {
     body {
-        background-position: top -65vh right 50vw, bottom -40vh left 50vw;
+        background-position: top -50vh right 50vw, bottom -40vh left 50vw;
     }
 }
 
@@ -121,7 +140,7 @@ hr {
 
 @media (min-width: 481px) and (max-width: 1024px) {
     body {
-        background-position: top -77vh right 50vw, bottom -66vh left 50vw;
+        background-position: top -70vh right 50vw, bottom -70vh left 50vw;
     }
 }
 
@@ -130,6 +149,6 @@ hr {
 
 @media (min-width: 1025px) {
     body {
-        background-position: top -77vh right 50vw, bottom -66vh left 50vw;
+        background-position: top -70vh right 50vw, bottom -70vh left 50vw;
     }
 }
