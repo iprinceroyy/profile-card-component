@@ -51,6 +51,7 @@ body {
     width: 21rem;
     background: #fff;
     border-radius: 20px;
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 
@@ -125,6 +126,9 @@ footer .attribution {
 .attribution {
     font-size: 0.9rem;
 }
+
+
+/*                   Media Query                   */
 
 
 /* for mobile */
