@@ -120,7 +120,7 @@ hr {
 }
 
 footer .attribution {
-    margin: 4rem 0;
+    margin: 5rem 0;
 }
 
 .attribution {
@@ -135,7 +135,7 @@ footer .attribution {
 
 @media (max-width: 480px) {
     body {
-        background-position: top -60vh right 50vw, bottom -61vh left 50vw;
+        background-position: top -60vh right 50vw, bottom -62vh left 50vw;
     }
 }
 
