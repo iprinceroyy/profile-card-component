@@ -107,8 +107,29 @@ hr {
     font-weight: 400;
 }
 
-@media only screen and(max-width: 450px) {
+
+/* for mobile */
+
+@media (max-width: 480px) {
     body {
-        background-position: top -78vh right 50vw, bottom -78vh left 50vw;
+        background-position: top -70vh right 50vw, bottom -65vh left 50vw;
+    }
+}
+
+
+/* for tablet */
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-position: top -77vh right 50vw, bottom -66vh left 50vw;
+    }
+}
+
+
+/* for desktop */
+
+@media (min-width: 1025px) {
+    body {
+        background-position: top -77vh right 50vw, bottom -66vh left 50vw;
     }
 }
