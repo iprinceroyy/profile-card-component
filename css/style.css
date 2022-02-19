@@ -26,7 +26,7 @@ body {
     max-height: 100vh;
     background-color: var(--dark-cyan);
     background-image: url("../assets/images/bg-pattern-top.svg"), url("../assets/images/bg-pattern-bottom.svg");
-    background-position: top -70vh right 50vw, bottom -65vh left 50vw;
+    background-position: top -70vh right 50vw, bottom -60vh left 50vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     text-align: center;
@@ -51,7 +51,7 @@ body {
     width: 21rem;
     background: #fff;
     border-radius: 20px;
-    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 5px 0 rgba(27, 27, 27, 0.1);
 }
 
 
@@ -144,7 +144,7 @@ footer .attribution {
 
 @media (min-width: 481px) and (max-width: 1024px) {
     body {
-        background-position: top -70vh right 50vw, bottom -82vh left 50vw;
+        background-position: top -70vh right 50vw, bottom -80vh left 50vw;
     }
 }
 
@@ -153,6 +153,6 @@ footer .attribution {
 
 @media (min-width: 1025px) {
     body {
-        background-position: top -70vh right 50vw, bottom -82vh left 50vw;
+        background-position: top -70vh right 50vw, bottom -80vh left 50vw;
     }
 }
