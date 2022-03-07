@@ -15,8 +15,8 @@
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://profile-card-by-prince.netlify.app/)
--   Live Site URL: [Add live site URL here](https://github.com/iprinceroyy/profile-card-component)
+-   Solution URL: [Solution URL here](https://profile-card-by-prince.netlify.app/)
+-   Live Site URL: [Live site URL here](https://github.com/iprinceroyy/profile-card-component)
 
 ## My process
 
